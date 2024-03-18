@@ -4,8 +4,8 @@ const Color _customColor = Color.fromARGB(0, 130, 6, 238);
 
 const List<Color> _colorThemes = [
   _customColor,
-  Colors.blue,
-  Colors.orange,
+  Colors.tealAccent,
+  Colors.amber,
   Colors.black,
   Colors.red
 ];
