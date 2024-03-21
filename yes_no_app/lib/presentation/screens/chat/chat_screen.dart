@@ -54,7 +54,9 @@ class _ChatView extends StatelessWidget {
                             );
                     })),
             // Caja de texto
-            const MessageFieldBox(),
+            MessageFieldBox(
+              onValue: chatProvider.sendMessage,
+            ),
           ],
         ),
       ),
