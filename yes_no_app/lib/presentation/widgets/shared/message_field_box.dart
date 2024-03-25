@@ -26,6 +26,7 @@ class MessageFieldBox extends StatelessWidget {
           // print('button $textValue');
           onValue(textValue);
           textController.clear();
+          focusNode.requestFocus();
         },
       ),
     );
